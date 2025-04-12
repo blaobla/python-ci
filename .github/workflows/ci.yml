@@ -43,3 +43,10 @@ jobs:
       - name: Run tests
         run: |
           pytest tests/ --verbose
+
+      # 5. 运行src目录下的app.py
+      - name: run app.py
+        run: |
+          python src/app.py
+
+  
