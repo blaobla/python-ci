@@ -47,6 +47,6 @@ jobs:
       # 5. 运行src目录下的app.py
       - name: run app.py
         run: |
-          python src/app.py
+          python src/app.py 
 
   
